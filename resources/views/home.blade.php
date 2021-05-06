@@ -3,7 +3,11 @@
 @section('titolo', 'Home')
 
 @section('content')
-questa è la home
+
+<div class="banner">
+    <img src="{{asset('img/molisana-home.jpg')}}" alt="">
+
+</div>
 
     
 @endsection
